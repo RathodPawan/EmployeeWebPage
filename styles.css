@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  text-align: center;
+}
+.p1{
+  color: #b45add(314, 74%, 59%, 0.839);
+}
+
+p {
+  margin-top: 5px;
+  color: #b45add;
+}
+
+.welcome-paragraph {
+  text-align: center;
+  margin: 20px;
+}
+.divider-line {
+  text-align: center;
+  margin: 20px;
+  
+    color: #b45add; /* White color */
+}
+.company-name {
+  padding-top: 10px;
+  padding-bottom: 5px; /* Adjust as needed for spacing */
+  text-align: center; /* Center-align text */
+  padding: 2px; /* Outer padding */
+}
+
+.company-name-inner {
+  color: #fff; 
+  background-color: #b45add; 
+  border-radius: 10px; 
+  display: inline-block;
+  padding: 10px; 
+}
+
+
+
+
+.leadership-team {
+  padding-top: 10px;
+  padding-bottom: 5px; 
+  text-align: center; 
+  padding: 2px; 
+}
+
+.leadership-team-inner {
+  color: #fff; 
+  background-color: #b45add; 
+  border-radius: 10px; 
+  display: inline-block;
+  padding: 10px; 
+}
+.founder-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.founder-item {
+  margin-top: 5px;
+}
+
+.founder-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+.founder-image {
+  max-width: 100%; 
+}
+
+
+.team-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    margin-top: 10px;
+}
+
+.team-member-info h3 {
+    margin: 0;
+    color: #333; 
+}
+
+.team-member-image {
+    max-width: 100%; 
+}
+
+
+
+.development-team {
+  padding-top: 10px;
+  padding-bottom: 5px; 
+  text-align: center; 
+  padding: 2px; 
+}
+
+.development-team-inner {
+  color: #fff; 
+  background-color: #b45add; 
+  border-radius: 10px; 
+  display: inline-block;
+  padding: 10px; 
+}
+
+
+.development-team {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.developer-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-member {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .company-name-inner,
+  .leadership-team-inner,
+  .development-team-inner {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .team-member {
+    flex-basis: 100%;
+  }
+}
